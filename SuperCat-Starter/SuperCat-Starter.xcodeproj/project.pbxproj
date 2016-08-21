@@ -1,0 +1,380 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B324E8C1D69E70A0025E702 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B324E8B1D69E70A0025E702 /* AppDelegate.swift */; };
+		2B324E921D69E70A0025E702 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B324E911D69E70A0025E702 /* GameViewController.swift */; };
+		2B324E971D69E70A0025E702 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B324E951D69E70A0025E702 /* Main.storyboard */; };
+		2B324E991D69E70B0025E702 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B324E981D69E70B0025E702 /* Assets.xcassets */; };
+		2B324EA11D69E8DD0025E702 /* Game.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B324EA01D69E8DD0025E702 /* Game.xcassets */; };
+		2B324EAA1D69ED4C0025E702 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B324EA91D69ED4C0025E702 /* Game.swift */; };
+		2B324EAC1D69EFA10025E702 /* MenuScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B324EAB1D69EFA10025E702 /* MenuScene.swift */; };
+		2B324EAE1D69EFF00025E702 /* MenuScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 2B324EAD1D69EFF00025E702 /* MenuScene.sks */; };
+		2B7F991E1D69F9C300DA4A0B /* blackcat.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 2B7F991A1D69F9C300DA4A0B /* blackcat.atlas */; };
+		2B7F991F1D69F9C300DA4A0B /* bullet.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 2B7F991B1D69F9C300DA4A0B /* bullet.atlas */; };
+		2BE267781D6A031D004AB237 /* Health.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE267771D6A031D004AB237 /* Health.swift */; };
+		2BE2677A1D6A0829004AB237 /* HealthBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE267791D6A0829004AB237 /* HealthBar.swift */; };
+		2BE2678C1D6A316A004AB237 /* GameOverScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 2BE2678A1D6A316A004AB237 /* GameOverScene.sks */; };
+		2BE2678D1D6A316A004AB237 /* GameOverScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE2678B1D6A316A004AB237 /* GameOverScene.swift */; };
+		2BE267901D6A31B5004AB237 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE2678F1D6A31B5004AB237 /* GameScene.swift */; };
+		2BE267921D6A31C0004AB237 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 2BE267911D6A31C0004AB237 /* GameScene.sks */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2B324E881D69E70A0025E702 /* SuperCat-Starter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SuperCat-Starter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B324E8B1D69E70A0025E702 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2B324E911D69E70A0025E702 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		2B324E961D69E70A0025E702 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2B324E981D69E70B0025E702 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2B324E9A1D69E70B0025E702 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B324EA01D69E8DD0025E702 /* Game.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Game.xcassets; path = ../../SuperCat/SuperCat/Game.xcassets; sourceTree = "<group>"; };
+		2B324EA91D69ED4C0025E702 /* Game.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		2B324EAB1D69EFA10025E702 /* MenuScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuScene.swift; sourceTree = "<group>"; };
+		2B324EAD1D69EFF00025E702 /* MenuScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MenuScene.sks; sourceTree = "<group>"; };
+		2B7F991A1D69F9C300DA4A0B /* blackcat.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; name = blackcat.atlas; path = Atlases/blackcat.atlas; sourceTree = "<group>"; };
+		2B7F991B1D69F9C300DA4A0B /* bullet.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; name = bullet.atlas; path = Atlases/bullet.atlas; sourceTree = "<group>"; };
+		2BE267771D6A031D004AB237 /* Health.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Health.swift; sourceTree = "<group>"; };
+		2BE267791D6A0829004AB237 /* HealthBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HealthBar.swift; sourceTree = "<group>"; };
+		2BE2678A1D6A316A004AB237 /* GameOverScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameOverScene.sks; sourceTree = "<group>"; };
+		2BE2678B1D6A316A004AB237 /* GameOverScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameOverScene.swift; sourceTree = "<group>"; };
+		2BE2678F1D6A31B5004AB237 /* GameScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		2BE267911D6A31C0004AB237 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2B324E851D69E70A0025E702 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B324E7F1D69E70A0025E702 = {
+			isa = PBXGroup;
+			children = (
+				2B324E8A1D69E70A0025E702 /* SuperCat-Starter */,
+				2B324E891D69E70A0025E702 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2B324E891D69E70A0025E702 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2B324E881D69E70A0025E702 /* SuperCat-Starter.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2B324E8A1D69E70A0025E702 /* SuperCat-Starter */ = {
+			isa = PBXGroup;
+			children = (
+				2B324E8B1D69E70A0025E702 /* AppDelegate.swift */,
+				2B324EA91D69ED4C0025E702 /* Game.swift */,
+				2B324E911D69E70A0025E702 /* GameViewController.swift */,
+				2BE267771D6A031D004AB237 /* Health.swift */,
+				2BE267791D6A0829004AB237 /* HealthBar.swift */,
+				2B324EA31D69E96F0025E702 /* Assets */,
+				2B324EA21D69E9610025E702 /* Atlases */,
+				2B324EA61D69EA090025E702 /* Scenes */,
+				2B324E951D69E70A0025E702 /* Main.storyboard */,
+				2B324E9A1D69E70B0025E702 /* Info.plist */,
+			);
+			path = "SuperCat-Starter";
+			sourceTree = "<group>";
+		};
+		2B324EA21D69E9610025E702 /* Atlases */ = {
+			isa = PBXGroup;
+			children = (
+				2B7F991A1D69F9C300DA4A0B /* blackcat.atlas */,
+				2B7F991B1D69F9C300DA4A0B /* bullet.atlas */,
+			);
+			name = Atlases;
+			sourceTree = "<group>";
+		};
+		2B324EA31D69E96F0025E702 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				2B324EA01D69E8DD0025E702 /* Game.xcassets */,
+				2B324E981D69E70B0025E702 /* Assets.xcassets */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		2B324EA41D69E9F40025E702 /* Game Over Scene */ = {
+			isa = PBXGroup;
+			children = (
+				2BE2678A1D6A316A004AB237 /* GameOverScene.sks */,
+				2BE2678B1D6A316A004AB237 /* GameOverScene.swift */,
+			);
+			name = "Game Over Scene";
+			sourceTree = "<group>";
+		};
+		2B324EA51D69EA040025E702 /* Menu Scene */ = {
+			isa = PBXGroup;
+			children = (
+				2B324EAB1D69EFA10025E702 /* MenuScene.swift */,
+				2B324EAD1D69EFF00025E702 /* MenuScene.sks */,
+			);
+			name = "Menu Scene";
+			sourceTree = "<group>";
+		};
+		2B324EA61D69EA090025E702 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				2BE2678E1D6A3180004AB237 /* Game Scene */,
+				2B324EA51D69EA040025E702 /* Menu Scene */,
+				2B324EA41D69E9F40025E702 /* Game Over Scene */,
+			);
+			name = Scenes;
+			sourceTree = "<group>";
+		};
+		2BE2678E1D6A3180004AB237 /* Game Scene */ = {
+			isa = PBXGroup;
+			children = (
+				2BE267911D6A31C0004AB237 /* GameScene.sks */,
+				2BE2678F1D6A31B5004AB237 /* GameScene.swift */,
+			);
+			name = "Game Scene";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2B324E871D69E70A0025E702 /* SuperCat-Starter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B324E9D1D69E70B0025E702 /* Build configuration list for PBXNativeTarget "SuperCat-Starter" */;
+			buildPhases = (
+				2B324E841D69E70A0025E702 /* Sources */,
+				2B324E851D69E70A0025E702 /* Frameworks */,
+				2B324E861D69E70A0025E702 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SuperCat-Starter";
+			productName = "SuperCat-Starter";
+			productReference = 2B324E881D69E70A0025E702 /* SuperCat-Starter.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2B324E801D69E70A0025E702 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Cocoa Academy";
+				TargetAttributes = {
+					2B324E871D69E70A0025E702 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 2B324E831D69E70A0025E702 /* Build configuration list for PBXProject "SuperCat-Starter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2B324E7F1D69E70A0025E702;
+			productRefGroup = 2B324E891D69E70A0025E702 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2B324E871D69E70A0025E702 /* SuperCat-Starter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2B324E861D69E70A0025E702 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B324E971D69E70A0025E702 /* Main.storyboard in Resources */,
+				2B324E991D69E70B0025E702 /* Assets.xcassets in Resources */,
+				2B324EAE1D69EFF00025E702 /* MenuScene.sks in Resources */,
+				2B7F991E1D69F9C300DA4A0B /* blackcat.atlas in Resources */,
+				2BE267921D6A31C0004AB237 /* GameScene.sks in Resources */,
+				2B324EA11D69E8DD0025E702 /* Game.xcassets in Resources */,
+				2BE2678C1D6A316A004AB237 /* GameOverScene.sks in Resources */,
+				2B7F991F1D69F9C300DA4A0B /* bullet.atlas in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2B324E841D69E70A0025E702 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BE2677A1D6A0829004AB237 /* HealthBar.swift in Sources */,
+				2BE267781D6A031D004AB237 /* Health.swift in Sources */,
+				2BE267901D6A31B5004AB237 /* GameScene.swift in Sources */,
+				2BE2678D1D6A316A004AB237 /* GameOverScene.swift in Sources */,
+				2B324E921D69E70A0025E702 /* GameViewController.swift in Sources */,
+				2B324EAC1D69EFA10025E702 /* MenuScene.swift in Sources */,
+				2B324E8C1D69E70A0025E702 /* AppDelegate.swift in Sources */,
+				2B324EAA1D69ED4C0025E702 /* Game.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2B324E951D69E70A0025E702 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B324E961D69E70A0025E702 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2B324E9B1D69E70B0025E702 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Debug;
+		};
+		2B324E9C1D69E70B0025E702 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2B324E9E1D69E70B0025E702 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = "SuperCat-Starter/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "academy.cocoa.SuperCat-Starter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2B324E9F1D69E70B0025E702 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = "SuperCat-Starter/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "academy.cocoa.SuperCat-Starter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2B324E831D69E70A0025E702 /* Build configuration list for PBXProject "SuperCat-Starter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B324E9B1D69E70B0025E702 /* Debug */,
+				2B324E9C1D69E70B0025E702 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B324E9D1D69E70B0025E702 /* Build configuration list for PBXNativeTarget "SuperCat-Starter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B324E9E1D69E70B0025E702 /* Debug */,
+				2B324E9F1D69E70B0025E702 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2B324E801D69E70A0025E702 /* Project object */;
+}
